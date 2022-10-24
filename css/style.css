@@ -1,0 +1,41 @@
+body {
+  margin: 5rem;
+  padding: 0;
+
+  /* align to center */
+  text-align: center;
+}
+
+button {
+  /* modify text */
+  font-size: 3rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif, 'Arial Narrow', Arial, sans-serif;
+
+  /* change background */
+  background-color: #ffd6ff;
+  color: #9700b5;
+
+  /* distance from borders */
+  padding: 2rem;
+
+  /* modify border */
+  border: 5px double;
+  border-radius: 2rem;
+  border-color: #6d00bb;
+}
+
+  /* add hover affect */
+button:hover {
+  color: #0013a4;
+  background-color: #bbd0ff;
+  border-color: #7070fc;
+  transition: 0.8s;
+}
+  /* add active selector */
+button:active {
+  color: #5f0096;
+  background-color: #c8b6ff;
+  border-color: #a113ff;
+
+  transition: 0.2s;
+}
