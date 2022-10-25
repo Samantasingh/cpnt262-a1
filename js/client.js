@@ -1,18 +1,11 @@
-
-  let button = document.querySelector('button');
-  button.addEventListener("click", changeTXT);
-  let p1 = document.querySelector('p')
-  let text = 'Your assignment has been successfully submitted. Check your mail for the automated comfirmation email.';
-
-  function changeTXT() {
-    p.innerHTML = text;
+  const submit = function() {
+    console.log('submit');
   }
+  const button = document.querySelector('button');
+  button.addEventListener("click", changeTXT);
 
-  let number = 7.836;
-  let rounded = number. toFixed();
-  document.getElementById ("rounded").innerHTML = rounded;
-
+  const p1 = document.querySelector('p')
+  const text = 'Your assignment has been successfully submitted. Check your mail for the automated comfirmation email.';
   function changeTXT() {
     p1.innerHTML = text;
-  
   }
